@@ -9,7 +9,7 @@ class Config(object):
     
     # Other Configs
     BOT_START_TIME = time.time()
-    OWNER    = int(os.environ.get("OWNER", "5487734890"))  # ⚠️ Required
+    OWNER    = int(os.environ.get("OWNER", "7651325596"))  # ⚠️ Required
     SUDO = list(map(int, os.environ.get("SUDO", "5239830469").split()))  # ⚠️ Required
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
